@@ -1,0 +1,34 @@
+.calendar{
+  width:707px;
+  border-left: 1px solid #735656;
+  border-top: 1px solid #735656;
+}
+
+.date-field {
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+  background-color: #ff2233;
+  border-right: 1px solid #735656;
+  border-bottom: 1px solid #735656;
+}
+
+.day-field {
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  background-color: #ff5566;
+  border-right: 1px solid #735656;
+  border-bottom: 1px solid #735656;
+}
+
+.active {
+  background-color: #ff4455;
+}
+
+.date {
+  padding-left: 80%;
+  font-weight: bold;
+  margin: 0px 5px;
+}
