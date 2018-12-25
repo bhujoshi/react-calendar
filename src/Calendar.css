@@ -8,7 +8,7 @@
   display: inline-block;
   height: 60px;
   width: 100px;
-  background-color: #ff2233;
+  background-color: #dcc7c9;
   border-right: 1px solid #735656;
   border-bottom: 1px solid #735656;
 }
@@ -24,11 +24,19 @@
 }
 
 .active {
-  background-color: #ff4455;
+  background-color: #f9eff0;
+}
+
+.in-active {
+  opacity: 0.8;
+}
+
+.current {
+  background-color: #8a5b5b;
 }
 
 .date {
-  padding-left: 80%;
+  padding-left: 70%;
   font-weight: bold;
   margin: 0px 5px;
 }

@@ -8,15 +8,13 @@ const Div = ({attr,children}) => {
 }
 
 
-const Date = ( { date } ) => {
+const Date = ( { className,children } ) => {
   let attr = {
-    className:`date-field`,
+    className:`date-field ${className}`,
     onClick:() => {alert("hello world!")},
   }
   return (<Div  attr={attr}>
-    <div className="date">
-      {date}
-    </div>
+  	{children}
   </Div>);
 }
 
